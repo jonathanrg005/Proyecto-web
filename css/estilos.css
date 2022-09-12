@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    position: relative;
+    padding-bottom: 20px;
+    min-height: 100vh;
+}
+.Menu {
+  background-color: black;
+  text-align: right;
+}
+.OpcionMenu {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.OpcionMenu:hover {
+  background-color: grey;
+}
+.LinkMenu {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ /* vertical-align: bottom;*/
+}
