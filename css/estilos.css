@@ -24,6 +24,7 @@ body{
   text-decoration: none;
 }
 footer {
+    /*para que el footer se posicione al final de la pagina el boddy tiene que tener posicion relativa*/
   position: absolute;
   bottom: 0;
   width: 100%;
